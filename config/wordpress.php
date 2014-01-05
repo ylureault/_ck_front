@@ -28,6 +28,10 @@ if (file_exists(APP_ROOT . '/config/env/local.php')) {
 }
 
 
+/** Require Composer autoload file */
+require APP_ROOT . '/vendor/autoload.php';
+
+
 /**
  * Préfixe de base de données pour les tables de WordPress.
  *
