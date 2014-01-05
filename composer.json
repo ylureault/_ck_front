@@ -1,0 +1,12 @@
+{
+    "name": "some1else/_ck_front",
+    "authors": [
+        {
+            "name": "Philippe Khill",
+            "email": "khillbill@gmail.com"
+        }
+    ],
+    "require": {
+    	"twig/twig": "1.15.*@dev"
+    }
+}
