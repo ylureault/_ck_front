@@ -11,6 +11,7 @@ nbproject/
 *.tmproj
 
 # Symfony files to ignore
-public/content/uploads/
+public/content/uploads/*
+public/site/*
 vendor
 composer.phar
