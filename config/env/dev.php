@@ -47,3 +47,14 @@ define('SECURE_AUTH_SALT', 'APV3K`5x_[]42SPALGowe3z|HPd)7|-u7||Vl.$Q9mE2}BM>9nxh
 define('LOGGED_IN_SALT',   '&TcAZj$~o{rHBAW?+AAU!9+P~;F)+.@96zAa#rB7R@2S+}ZD&!8<^?.+B?76q4*^');
 define('NONCE_SALT',       '+h(F.Ak-#oH<S~s+dt:0+Y@n5tCZd}pT^CWdcu`P*+RA#6k`7~?fzJY<uH0d]fRw');
 /**#@-*/
+
+/** 
+ * Pour les développeurs : le mode deboguage de WordPress.
+ * 
+ * En passant la valeur suivante à "true", vous activez l'affichage des
+ * notifications d'erreurs pendant votre essais.
+ * Il est fortemment recommandé que les développeurs d'extensions et
+ * de thèmes se servent de WP_DEBUG dans leur environnement de 
+ * développement.
+ */ 
+define('WP_DEBUG', true); 
