@@ -47,16 +47,6 @@ $table_prefix  = 'cn_';
  */
 define('WPLANG', 'fr_FR');
 
-/** 
- * Pour les développeurs : le mode deboguage de WordPress.
- * 
- * En passant la valeur suivante à "true", vous activez l'affichage des
- * notifications d'erreurs pendant votre essais.
- * Il est fortemment recommandé que les développeurs d'extensions et
- * de thèmes se servent de WP_DEBUG dans leur environnement de 
- * développement.
- */ 
-define('WP_DEBUG', true); 
 
 /* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
 
