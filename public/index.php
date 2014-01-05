@@ -14,9 +14,5 @@
  */
 define('WP_USE_THEMES', true);
 
-
-/** Bootstrap Home Config */
-require( dirname( __FILE__ ) . '/../config/wordpress.php' );
-
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/site/wp-blog-header.php' );
