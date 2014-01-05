@@ -28,7 +28,6 @@ if (file_exists(APP_ROOT . '/config/env/local.php')) {
 }
 
 
-
 /**
  * Préfixe de base de données pour les tables de WordPress.
  *
@@ -63,7 +62,12 @@ define('WP_DEBUG', true);
 
 /** Chemin absolu vers le dossier de WordPress. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(dirname(__FILE__)) . '/public/site/');
 
-/** Réglage des variables de WordPress et de ses fichiers inclus. */
-require_once(ABSPATH . 'wp-settings.php');
+/** Sets up WordPress vars and included files. */
+
+// var_dump(ABSPATH); die();
+
+// weird hack because otherwise wp-cli won't load when this wp-settings.php file is loaded
+if (!empty($_SERVER['HTTP_HOST']))
+	require_once(ABSPATH . 'wp-settings.php');
